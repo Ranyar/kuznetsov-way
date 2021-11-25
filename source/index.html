@@ -12,17 +12,35 @@
 <body class="page-body">
   <header class="page-header">
     <h1 class="visually-hidden">Заголовок</h1>
-    <a class="page-header__logo" href="#">Логотип</a>
-    <nav class="page-header__nav main-nav">
-      <ul class="main-nav__list">
-        <li class="main-nav__item">
-          <a class="main-nav__link" href="#">О путешествии</a>
-        </li>
-        <li class="main-nav__item">
-          <a class="main-nav__link" href="#">Цены</a>
-        </li>
-      </ul>
-    </nav>
+    <a class="page-header__logo" href="#">
+      <img src="img/logo.svg" width="57" height="22" alt="Логотип компании Way">
+    </a>
+    <div class="page-header__wrapper">
+      <nav class="page-header__main-nav main-nav">
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#">О путешествии</a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="#">Цены</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="page-header__contacts contacts">
+        <ul class="contacts__list">
+          <li class="contacts__item">
+            <a class="contacts__link" href="tel:+749978468446">
+              <svg class="contacts__icon" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <use xlink:href="img/sprite.svg#phone-icon"></use>
+              </svg>
+              +7 (499) -784-684-46
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
   </header>
   <main class="page-main">
     Тестовое содержимое
