@@ -1,0 +1,48 @@
+.button {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  max-width: 250px;
+
+  padding: 31px 50px 30px 40px;
+
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 700;
+  color: $basic-white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+
+  background-color: $basic-accent;
+  border: none;
+
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background-color: $basic-accent-active;
+  }
+}
+
+.button--arrowed {
+  justify-content: space-between;
+
+  &::before {
+    content: "";
+    position: absolute;
+
+    right: 40px;
+
+    width: 14px;
+    height: 14px;
+
+    background-image: url("../../img/icons/arrow-right.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+}

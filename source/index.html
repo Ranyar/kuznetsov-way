@@ -7,7 +7,7 @@
   <link rel="preload" href="fonts/montserrat-regular.woff2" as="font">
   <link rel="preload" href="fonts/montserrat-semibold.woff2" as="font">
   <link rel="preload" href="fonts/montserrat-bold.woff2" as="font">
-  <title>Грейдирование</title>
+  <title>Туры по Европе с компанией «Way»</title>
 </head>
 <body class="page-body">
   <header class="page-header">
@@ -38,12 +38,83 @@
           </li>
         </ul>
       </div>
+      <button class="page-header__toggle visually-hidden" type="button" aria-label="Кнопка меню на мобильных"><span class="visually-hidden">Открыть меню</span></button>
     </div>
-
-
   </header>
   <main class="page-main">
-    Тестовое содержимое
+    <h1 class="visually-hidden">Туристическая компания «Way»</h1>
+    <section class="page-main__intro intro">
+      <div class="intro__wrapper">
+        <div class="intro__content">
+          <h2 class="intro__heading">Путешествие по Европе</h2>
+          <p class="intro__description">В этом туре вы откроете для себя Европу в новом свете. Вас ждет: море, горы, а также потрясающая красота природы.</p>
+          <a class="intro__button button button--arrowed" href="#">Смотреть тур</a>
+        </div>
+      </div>
+    </section>
+    <section class="page-main__countries countries">
+      <div class="countries__wrapper">
+        <h2 class="countries__heading">Места<br> посещения</h2>
+        <p class="countries__description">Вы можете выбрать полный тур или<br> частичный, с посещением первых 3 мест</p>
+        <ul class="countries__list">
+          <li class="countries__item countries-card">
+            <a class="countries-card__link" href="#">
+              <div class="countries-card__image-wrapper">
+                <picture>
+                  <source type="image/webp" srcset="img/countries-greece-desktop.webp">
+                  <img class="cats__image" src="img/countries-greece-desktop.jpg" width="350" height="430" alt="Монастырь Метеоры в Греции">
+                </picture>
+              </div>
+              <span class="countries-card__name">Греция</span>
+            </a>
+          </li>
+          <li class="countries__item countries-card">
+            <a class="countries-card__link" href="#">
+              <div class="countries-card__image-wrapper">
+                <picture>
+                  <source type="image/webp" srcset="img/countries-albania-desktop.webp">
+                  <img class="cats__image" src="img/countries-albania-desktop.jpg" width="350" height="430" alt="Монастырь Метеоры в Греции">
+                </picture>
+              </div>
+              <span class="countries-card__name">Албания</span>
+            </a>
+          </li>
+          <li class="countries__item countries-card">
+            <a class="countries-card__link" href="#">
+              <div class="countries-card__image-wrapper">
+                <picture>
+                  <source type="image/webp" srcset="img/countries-macedonia-desktop.webp">
+                  <img class="cats__image" src="img/countries-macedonia-desktop.jpg" width="350" height="430" alt="Монастырь Метеоры в Греции">
+                </picture>
+              </div>
+              <span class="countries-card__name">Македония</span>
+            </a>
+          </li>
+          <li class="countries__item countries-card">
+            <a class="countries-card__link" href="#">
+              <div class="countries-card__image-wrapper">
+                <picture>
+                  <source type="image/webp" srcset="img/countries-montenegro-desktop.webp">
+                  <img class="cats__image" src="img/countries-montenegro-desktop.jpg" width="350" height="430" alt="Монастырь Метеоры в Греции">
+                </picture>
+              </div>
+              <span class="countries-card__name">Черногория</span>
+            </a>
+          </li>
+          <li class="countries__item countries-card">
+            <a class="countries-card__link" href="#">
+              <div class="countries-card__image-wrapper">
+                <picture>
+                  <source type="image/webp" srcset="img/countries-croatia-desktop.webp">
+                  <img class="cats__image" src="img/countries-croatia-desktop.jpg" width="350" height="430" alt="Монастырь Метеоры в Греции">
+                </picture>
+              </div>
+              <span class="countries-card__name">Хорватия</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
   </main>
 </body>
 </html>

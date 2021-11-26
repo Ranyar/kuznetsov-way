@@ -1,0 +1,42 @@
+.intro {
+  background-color: $background-intro;
+  background-image: url("../../img/intro-background-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 202px;
+}
+
+.intro__wrapper {
+  min-height: 860px;
+  max-width: 1170px;
+  display: grid;
+  grid-template-columns: 59.9% 32.6% 7.5%;
+  margin: 0 auto;
+}
+
+.intro__content {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  padding-top: 186px;
+}
+
+.intro__heading {
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 80px;
+  color: $basic-white;
+  letter-spacing: -1.10667px;
+  margin: 0 0 28px 0;
+}
+
+.intro__description {
+  color: $basic-white;
+  margin: 0 0 33px 0;
+  line-height: 27.2px;
+  letter-spacing: -0.466667px;
+}
+
+.intro__button {
+  max-width: 340px;
+}

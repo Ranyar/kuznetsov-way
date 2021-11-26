@@ -5,11 +5,14 @@
 .main-nav__link {
   text-decoration: none;
   color: $basic-dark-deep;
+  font-weight: 500;
+  font-size: 14px;
+
 }
 
 .main-nav__item {
   &:first-child {
-    margin-right: 39px;
+    margin-right: 37px;
   }
 
   &:nth-child(2) {
