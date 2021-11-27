@@ -1,0 +1,44 @@
+.catalog-nav__list {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  position: relative;
+  padding-bottom: 16px;
+  max-width: max-content;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    width: 100%;
+    height: 1px;
+    background-color: rgba($basic-dark,0.3);
+  }
+}
+
+.catalog-nav__item {
+  margin-right: 100px;
+
+  &:last-child {
+    margin-right: 0px;
+  }
+}
+
+.catalog-nav__link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.415px;
+  color: rgba($basic-dark, 0.3);
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: $basic-accent;
+  }
+}

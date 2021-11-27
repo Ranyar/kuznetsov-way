@@ -1,0 +1,24 @@
+.tour-card {
+  max-width: 1170px;
+  display: grid;
+  grid-template-columns: 40.2% 36.8% 23%;
+}
+
+.tour-card__heading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 90px;
+  letter-spacing: -1.245px;
+  margin: 0 0 48px 0;
+  padding-top: 11px;
+}
+
+.tour-card__description {
+  margin: 0;
+  line-height: 28px;
+  letter-spacing: -0.466667px;
+  color: rgba($basic-dark, 0.7);
+  padding-right: 100px;
+  margin-bottom: 48px;
+}
