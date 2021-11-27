@@ -15,3 +15,23 @@
   letter-spacing: -0.466667px;
   margin: 0 0 54px 0;
 }
+
+.countries__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.countries__item {
+  margin-right: 60px;
+  margin-bottom: 100px;
+
+  &:nth-child(3n) {
+    margin-right: 0;
+  }
+
+  &:last-child {
+    margin-left: 60px;
+    margin-right: 0;
+  }
+}
