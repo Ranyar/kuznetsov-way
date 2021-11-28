@@ -1,0 +1,16 @@
+.author {
+  display: flex;
+}
+
+.author__photo {
+  margin-right: 16px;
+}
+
+.author__name {
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.466667px;
+  padding-bottom: 3px;
+  align-self: center;
+}
