@@ -3,11 +3,22 @@
   margin: 0 auto;
 }
 .countries__heading {
+  position: relative;
   font-weight: 600;
   font-size: 55px;
   line-height: 80px;
   letter-spacing: -1.245px;
   margin: 0 0 63px 0;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -32px;
+    width: 228px;
+    height: 3px;
+    background-color: $basic-accent;
+  }
 }
 
 .countries__description {

@@ -58,7 +58,7 @@
         <p class="countries__description">Вы можете выбрать полный тур или<br> частичный, с посещением первых 3 мест</p>
         <ul class="countries__list">
           <li class="countries__item countries-card">
-            <a class="countries-card__link" href="#">
+            <a class="countries-card__link" href="#greece">
               <div class="countries-card__image-wrapper">
                 <picture>
                   <source type="image/webp" srcset="img/countries-greece-desktop.webp">
@@ -72,7 +72,7 @@
             </a>
           </li>
           <li class="countries__item countries-card">
-            <a class="countries-card__link" href="#">
+            <a class="countries-card__link" href="#albania">
               <div class="countries-card__image-wrapper">
                 <picture>
                   <source type="image/webp" srcset="img/countries-albania-desktop.webp">
@@ -86,7 +86,7 @@
             </a>
           </li>
           <li class="countries__item countries-card">
-            <a class="countries-card__link" href="#">
+            <a class="countries-card__link" href="#macedonia">
               <div class="countries-card__image-wrapper">
                 <picture>
                   <source type="image/webp" srcset="img/countries-macedonia-desktop.webp">
@@ -100,7 +100,7 @@
             </a>
           </li>
           <li class="countries__item countries-card">
-            <a class="countries-card__link" href="#">
+            <a class="countries-card__link" href="#montenegro">
               <div class="countries-card__image-wrapper">
                 <picture>
                   <source type="image/webp" srcset="img/countries-montenegro-desktop.webp">
@@ -114,7 +114,7 @@
             </a>
           </li>
           <li class="countries__item countries-card">
-            <a class="countries-card__link" href="#">
+            <a class="countries-card__link" href="#croatia">
               <div class="countries-card__image-wrapper">
                 <picture>
                   <source type="image/webp" srcset="img/countries-croatia-desktop.webp">
@@ -136,24 +136,24 @@
         <div class="catalog__catalog-nav catalog-nav">
           <ul class="catalog-nav__list">
             <li class="catalog-nav__item">
-              <a class="catalog-nav__link catalog-nav__link--active" href="#greece" data-catalog-nav="#greece">Греция</a>
+              <a class="catalog-nav__link catalog-nav__link--active" data-catalog-nav="greece">Греция</a>
             </li>
             <li class="catalog-nav__item">
-              <a class="catalog-nav__link" href="#albania" data-catalog-nav="#albania">Албания</a>
+              <a class="catalog-nav__link" data-catalog-nav="albania">Албания</a>
             </li>
             <li class="catalog-nav__item">
-              <a class="catalog-nav__link" href="#macedonia" data-catalog-nav="#macedonia">Македония</a>
+              <a class="catalog-nav__link" data-catalog-nav="macedonia">Македония</a>
             </li>
             <li class="catalog-nav__item">
-              <a class="catalog-nav__link" href="#montenegro" data-catalog-nav="#montenegro">Черногория</a>
+              <a class="catalog-nav__link" data-catalog-nav="montenegro">Черногория</a>
             </li>
             <li class="catalog-nav__item">
-              <a class="catalog-nav__link" href="#croatia" data-catalog-nav="#croatia">Хорватия</a>
+              <a class="catalog-nav__link" data-catalog-nav="croatia">Хорватия</a>
             </li>
           </ul>
         </div>
         <div class="catalog__list">
-          <article class="catalog__item catalog__item--active tour-card">
+          <article class="catalog__item catalog__item--active tour-card" id="greece">
             <div class="tour-card__info">
               <h3 class="tour-card__heading">Греция</h3>
               <p class="tour-card__description">На севере Греции находится один из крупнейших комплексов монастырей, расположенных на вершинах скал. Название его «Метеора» буквально переводится как «висящие в воздухе». Этот монастырь основная цель нашего путешествия в Греции. После покарения скал из песчанника и обломочной горной породы, достигающих в высоту 600 метров, наградой будет неописуемая красота природы и атмосфера, царящая в монастырях Метеоры. </p>
@@ -179,7 +179,7 @@
               </blockquote>
             </div>
           </article>
-          <article class="catalog__item catalog__item--active tour-card visually-hidden">
+          <article class="catalog__item tour-card visually-hidden" id="albania">
             <div class="tour-card__info">
               <h3 class="tour-card__heading">Албания</h3>
               <p class="tour-card__description">В Албании мы посетим Курорт Ксамиль. Этот курорт поразит вас чистейшей водой и удивительным пляжем. Вначале кажется, что на пляже вас встречает обычный, правда невероятно белоснежный и слишком крупный песок. Однако, присмотревшись, можно понять, что это не песок, а камни, перетёртые до такого мелкого состояния.</p>
@@ -205,7 +205,7 @@
               </blockquote>
             </div>
           </article>
-          <article class="catalog__item catalog__item--active tour-card visually-hidden">
+          <article class="catalog__item tour-card visually-hidden" id="macedonia">
             <div class="tour-card__info">
               <h3 class="tour-card__heading">Македония</h3>
               <p class="tour-card__description">В Македонии нашей целью будет посетить Палаошник, который расположился в удивительно красивой лесистой местности возле Охридского озера и Самуиловой твердыни. А также мы заберемся на вершину горы Татичев Камен где находится  археологический памятник Кокино в длину около 100 метров.</p>
@@ -231,7 +231,7 @@
               </blockquote>
             </div>
           </article>
-          <article class="catalog__item catalog__item--active tour-card visually-hidden">
+          <article class="catalog__item tour-card visually-hidden" id="montenegro">
             <div class="tour-card__info">
               <h3 class="tour-card__heading">Черногория</h3>
               <p class="tour-card__description">Черногория удивит нас самым большим в Европе каньоном реки Тара, который в некоторых местах высотой берегов доходит до 1300 метров, а шириной не превышает трех. При этом длина каньона составляет 80 км.</p>
@@ -257,7 +257,7 @@
               </blockquote>
             </div>
           </article>
-          <article class="catalog__item catalog__item--active tour-card visually-hidden">
+          <article class="catalog__item tour-card visually-hidden" id="croatia">
             <div class="tour-card__info">
               <h3 class="tour-card__heading">Хорватия</h3>
               <p class="tour-card__description">В Хорватии мы посетим необычайную пещеру названную Бередине. Ее подземный мир увлечет вас на 80-ти метровую глубину через 5 освещенных залов, украшенных удивительными нерукотворными скульптурами —  сталактитами и сталагмитами —  формировавшимися тысячи и тысячи лет.</p>
@@ -294,7 +294,7 @@
           <div class="price__contacts">
             <p class="price__call-to-action">Свяжитесь с нами</p>
             <a class="price__phone" href="tel:+749978468446">
-              <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg class="price__phone-icon" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <use xlink:href="img/sprite.svg#phone-icon"></use>
               </svg>
               +7 (499) -784-684-46</a>
@@ -317,7 +317,7 @@
           </li>
           <li class="price__item price-card">
             <div class="price-card__header">
-              <h3 class="price-card__title">"Экономный"</h3>
+              <h3 class="price-card__title">Экономный</h3>
               <span class="price-card__value">$1399</span>
               <p class="price-card__description">Ознакомьтесь с перечнем того, что входит в данный пакет</p>
             </div>
@@ -334,5 +334,6 @@
       </div>
     </section>
   </main>
+  <script src="js/main.min.js"></script>
 </body>
 </html>

@@ -1,13 +1,22 @@
 .catalog {
-  background-image: url("../../img/catalog-background.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-position-y: 119px
+  position: relative;
+
+  &::before {
+    content: "";
+    background-image: url("../../img/catalog-background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 119px;
+    height: 1208px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+  }
 }
 
 .catalog__wrapper {
   max-width: 1170px;
-  margin: 0 auto 64px auto;
+  margin: 0 auto;
 }
 
 .catalog__list {
