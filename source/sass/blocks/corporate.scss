@@ -1,0 +1,29 @@
+.corporate {
+  padding: 0 8px 0 60px;
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    left: 3px;
+    top: 0;
+    width: 1px;
+    height: 189px;
+    background-color: $modal-border-color;
+  }
+}
+
+.corporate__heading {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  margin: 0 0 22px 0;
+}
+
+.corporate__description {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 170%;
+  color: rgba($basic-dark-deep, 0.5);
+  margin: 0;
+}

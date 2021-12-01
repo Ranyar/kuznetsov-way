@@ -1,0 +1,40 @@
+.feedback__wrapper {
+  max-width: 1170px;
+  min-height: 455px;
+  margin: 0 auto;
+
+  background-color: $basic-accent;
+  background-image: url(".././img/feedback-background-desktop.jpg"), url(".././img/feedback-background-desktop.webp"), linear-gradient(90deg, $basic-accent 0%, $basic-accent 70%, $basic-white 70%, $basic-white 100%);
+  background-repeat: no-repeat;
+  background-position: left;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.feedback__content {
+  box-sizing: border-box;
+  max-width: 656px;
+  height: 315px;
+  padding: 50px 50px 0 50px;
+  background-color: $basic-white;
+  border-radius: 5px;
+  box-shadow: 0 4px 30px rgba($feedback-box-shadow, 0.1);
+  flex-basis: 656px;
+}
+
+.feedback__heading {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 32px;
+  text-align: center;
+  color: $basic-dark-deep;
+  margin: 0 0 12px 0;
+}
+
+.feedback__description {
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  margin: 0 0 23px 0;
+}

@@ -1,10 +1,58 @@
+.contacts__heading {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  margin: 0;
+
+  &--footer {
+    margin-bottom: 24px;
+  }
+}
+
 .contacts__link {
   font-size: 18px;
   display: flex;
   color: $basic-dark-deep;
   padding-right: 2px;
+
+  &--mail-footer {
+    color: $basic-accent;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    align-items: center;
+  }
+
+  &--phone-footer {
+    color: $basic-accent;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+  }
 }
 
 .contacts__icon {
   margin-right: 10px;
+
+  &--mail-footer {
+    margin-right: 15px;
+  }
+}
+
+.contacts__item {
+  display: flex;
+
+  &--footer {
+    margin-bottom: 21px;
+  }
+}
+
+.contacts__link--header:hover {
+  color: $basic-accent;
+  stroke: $basic-accent;
+}
+
+.contacts__link--mail-footer:hover,
+.contacts__link--phone-footer:hover {
+  color: $basic-dark;
 }

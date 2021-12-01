@@ -4,6 +4,38 @@
   border: 1px solid rgba($basic-dark, 0.3);
   border-radius: 6px;
   background-color: $basic-white;
+
+  &:first-child .price-card__item:first-child {
+    margin-bottom: 6px;
+  }
+
+  &:first-child .price-card__item:before {
+    left: 4px;
+  }
+
+  &:first-child .price-card__list {
+    margin-bottom: 53px;
+  }
+
+  &:hover {
+    outline: 3px solid $basic-accent;
+    outline-offset: -3px;
+
+    & .price-card__header {
+      min-height: 124px;
+    }
+
+    & .price-card__title {
+      color: $basic-accent;
+      line-height: 34px;
+      letter-spacing: normal;
+    }
+
+    & .price-card__value {
+      color: $basic-accent;
+      margin-bottom: 36px;
+    }
+  }
 }
 
 .price-card__header {

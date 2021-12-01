@@ -5,20 +5,49 @@
   background-size: cover;
   background-position: center;
   margin-bottom: 202px;
+
+  @media(max-width: $desktop-width) {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+
+  @media (min-resolution: 2dppx) {
+    background-image: url(".././img/intro-background-desktop@2x.jpg");
+  }
+
+  @media (max-width: $desktop-width) {
+    background-image: url(".././img/intro-background-tablet.jpg");
+
+    @media (min-resolution: 2dppx) {
+      background-image: url(".././img/intro-background-tablet@2x.jpg");
+    }
+  }
 }
 
 .intro__wrapper {
   min-height: 860px;
   max-width: 1170px;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 59.9% 32.6% 7.5%;
-  margin: 0 auto;
+
+  @media(max-width: $desktop-width) {
+    grid-template-rows: 1fr 9fr;
+    grid-template-columns: none;
+    min-height: 344px;
+  }
 }
 
 .intro__content {
   grid-column-start: 2;
   grid-column-end: 3;
   padding-top: 186px;
+
+  @media(max-width: $desktop-width) {
+    padding-top: 0;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
 }
 
 .intro__heading {

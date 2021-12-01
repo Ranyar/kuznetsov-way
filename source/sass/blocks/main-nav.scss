@@ -1,5 +1,12 @@
 .main-nav__list {
   display: flex;
+
+  @media (max-width: $tablet-width) {
+    flex-direction: column;
+    padding-top: 132px;
+
+    width: 100%;
+  }
 }
 
 .main-nav__link {
@@ -8,6 +15,9 @@
   font-weight: 500;
   font-size: 14px;
 
+  &:hover {
+    color: $basic-accent;
+  }
 }
 
 .main-nav__item {

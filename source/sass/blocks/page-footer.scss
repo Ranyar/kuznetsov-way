@@ -1,0 +1,10 @@
+.page-footer__wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.page-footer__contacts {
+  padding-left: 62px;
+}

@@ -53,6 +53,10 @@
   color: $basic-black;
   display: flex;
   text-decoration: none;
+
+  &:hover {
+    color: $basic-accent;
+  }
 }
 
 .price__phone-icon {

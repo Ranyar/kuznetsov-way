@@ -27,3 +27,32 @@
 .catalog__catalog-nav {
   margin-bottom: 64px;
 }
+
+.catalog--nojs {
+  .catalog__catalog-nav {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+    padding-top: 20px;
+
+    background-color: $basic-white;
+  }
+
+  .catalog__item {
+    display: grid;
+    min-height: 635px;
+  }
+
+  @media (max-width: $tablet-width) {
+    .catalog__catalog-nav {
+      position: absolute;
+      top: auto;
+    }
+
+    .catalog__item {
+      position: relative;
+      min-height: auto;
+    }
+  }
+}
