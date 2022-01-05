@@ -43,6 +43,7 @@
     "source/sass/**/*.{sass,scss}"
   ],
   "dependencies": {
-    "gulp-webp": "^4.0.1"
+    "gulp-webp": "^4.0.1",
+    "node-gyp": "^8.4.1"
   }
 }
